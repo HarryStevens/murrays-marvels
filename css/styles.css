@@ -16,10 +16,7 @@ h1 {
 /* Nav */
 .navbar-brand {
 	font-size: 24px;
-	color: #000 !important;
-}
-.navbar-brand a {
-	
+	color: #d9534f !important;
 }
 
 /* Images */
