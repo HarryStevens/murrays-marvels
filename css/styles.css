@@ -1,0 +1,51 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+/* Alignment */
+.center {
+	text-align: center;
+}
+
+/* Nav */
+.navbar-brand {
+	font-size: 24px;
+	color: #000 !important;
+}
+.navbar-brand a {
+	
+}
+
+/* Images */
+#product-imgs img {
+	cursor: pointer;
+}
+.main-img-wrapper {
+	margin-bottom: 10px;
+}
+.thumb-img {
+	opacity: .5;
+	transition: opacity .5s;
+}
+.thumb-img:hover {
+	opacity: 1;
+}
+#img-modal .modal-dialog {
+	width: 55%;
+}
+
+/* Info */
+.basic-info {
+	font-size: 18px;
+}
+.buy-now {
+	margin-top: 20px;
+	font-size: 36px;
+	text-align: center;
+}
