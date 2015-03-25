@@ -46,3 +46,23 @@ h1 {
 	font-size: 36px;
 	text-align: center;
 }
+
+/* Product Grid */
+.product-grid {
+	text-align: center;
+}
+.product-grid .row {
+	margin-bottom: 20px;
+}
+
+.product-grid img {
+	opacity: .9;
+	transition: opacity .5s;
+}
+.product-grid img:hover {
+	opacity: 1;
+}
+.product-grid .price {
+	font-size: 13px;
+	font-weight: bold;
+}
