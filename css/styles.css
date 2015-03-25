@@ -17,6 +17,21 @@ h1 {
 .navbar-brand {
 	font-size: 24px;
 	color: #d9534f !important;
+	padding-left: 0px;
+}
+.sidenav {
+	font-size: 15px;
+}
+.sidenav .affix {
+	top: 20px;
+}
+.sidenav ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+.sidenav input {
+	margin-bottom: 5px;
+	width: 80%;
 }
 
 /* Images */
@@ -45,6 +60,12 @@ h1 {
 	margin-top: 20px;
 	font-size: 36px;
 	text-align: center;
+}
+
+/* Welcome */
+.welcome {
+	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 /* Product Grid */
