@@ -9,6 +9,7 @@ h1 {
 }
 a {
 	color: #d9534f;
+	cursor: pointer;
 }
 a:hover {
 	color: #ad423f;
@@ -36,6 +37,7 @@ a:hover {
 	font-size: 15px;
 }
 .sidenav .affix {
+	position: fixed;
 	top: 70px;
 }
 .sidenav ul {
@@ -44,7 +46,7 @@ a:hover {
 }
 .sidenav input {
 	margin-bottom: 5px;
-	width: 80%;
+	width: 150px;
 }
 
 /*
@@ -69,6 +71,12 @@ a:hover {
 	font-family: 'Syncopate';
 }
 
+/* Showing Label */
+.showing {
+	text-align: left;
+	font-size: 15px;
+}
+
 /* Product Grid */
 #listings {
 	margin-top: -69px;
@@ -77,10 +85,12 @@ a:hover {
 .product-grid {
 	text-align: center;
 }
-.product-grid .row {
+.product-grid .item {
 	margin-bottom: 20px;
 }
-
+.product-grid .row {
+	margin-bottom: 5px;
+}
 .product-grid img {
 	opacity: .9;
 	transition: opacity .5s;
@@ -91,6 +101,12 @@ a:hover {
 .product-grid .price {
 	font-size: 13px;
 	font-weight: bold;
+}
+.cookie-jar {
+	display: block;
+}
+.type-writer {
+	display.block;
 }
 
 /*
